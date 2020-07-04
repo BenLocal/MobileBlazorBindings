@@ -36,7 +36,7 @@ namespace Microsoft.MobileBlazorBindings.Elements
                 await element.InitAsync().ConfigureAwait(false);
             }
 
-            element.Render(ChildContent);
+            element.Render(ChildContent, true);
         }
     }
 }
